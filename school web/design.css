@@ -1,0 +1,198 @@
+body {
+    /*font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;*/
+    background-color: #f5deb3;
+}
+
+header {
+    background-color: #333333;
+    color: #ffffff;
+
+    border-radius: 10px;
+    /*padding: 30px 0;
+    width: 100%;
+    height: 80px;
+    float: left;*/
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+
+nav ul li{
+    display: inline;
+    padding-right: 8px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.lnk:hover{
+    color: aqua;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 1.2%;
+}
+
+h1{
+    display: inline-block;
+}
+
+img{
+    display: inline-block;
+    width: 75px;
+    display: inline-block;
+    /*padding-top: 25px;*/
+}
+
+#shii{
+    position: relative;
+    height: 10%;
+}
+
+iframe{
+    display: inline-block;
+   /* padding-bottom: 6%;*/
+}
+
+#c{
+    display: inline-block;
+    padding-top: 8%;
+}
+
+form {
+    margin: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+label {
+    margin-top: 10px 0;
+}
+
+input, textarea, select {
+    margin-top: 5px;
+    padding: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+#contact-info {
+    background: #f5deb3;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-info2 {
+    background: #f5deb3;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-info2 h2 {
+    text-align: center;
+    color: #333333;
+}
+
+#contact-info2 p {
+    text-align: center;
+    color: #666666;
+}
+
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+    width: 45%;
+    margin: auto;
+}
+
+#contact-info ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .space{
+    display: flex;
+    flex-direction: row;
+  }
